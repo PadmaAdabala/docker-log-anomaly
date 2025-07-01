@@ -1,0 +1,9 @@
+2025-06-30 15:46:15.718580 - Normal access - IP: 172.17.0.1
+2025-06-30 15:46:15.777474 - Invalid path accessed: /favicon.ico - IP: 172.17.0.1
+2025-06-30 15:46:26.586953 - Normal access - IP: 172.17.0.1
+2025-06-30 15:47:16.092951 - Normal access - IP: 172.17.0.1
+2025-06-30 15:47:16.535760 - Admin area accessed - IP: 172.17.0.1
+2025-06-30 15:47:16.651731 - Invalid path accessed: /etc/shadow - IP: 172.17.0.1
+2025-06-30 15:48:25.406215 - Login attempt - IP: 172.17.0.1
+2025-06-30 15:49:10.086254 - Invalid path accessed: /etc/shadow - IP: 172.17.0.1
+2025-06-30 15:49:30.559149 - Invalid path accessed: /etc/shadow - IP: 172.17.0.1
