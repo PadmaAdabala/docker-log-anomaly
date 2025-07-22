@@ -1,0 +1,5 @@
+# Ignore all log files
+*.log
+
+# Specifically ignore app log
+logs/app.log
