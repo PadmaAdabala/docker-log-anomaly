@@ -41,7 +41,7 @@ cd docker-log-anomaly
 ### 2.Build and Run the Docker Container
 
 
-docker build -t docker-web-app web-app/
+docker build -t docker-web-app src/
 docker run -d --name log-app -p 5000:5000 docker-web-app
 
 ### 3.Interact with the App:
@@ -62,6 +62,10 @@ docker cp log-app:/app/app.log ./logs/app.log
 
   ## 🧠 ML-Based
   python ml_detect.py
+### 6.View Logs (Optional)
+   
+  docker exec log-app cat /app/app.log
+
 
 ## 🤖 Tech Stack
 

@@ -1,15 +1,16 @@
-# Use a lightweight Python image
+# Use official Python image
 FROM python:3.9-slim
 
+# Set working directory
 WORKDIR /app
 
-# Copy code
-COPY app.py .
+# Copy files
+COPY app.py /app/app.py
 
 # Install Flask
 RUN pip install flask
 
-# Expose the port
+# Expose port
 EXPOSE 5000
 
 # Run the app
